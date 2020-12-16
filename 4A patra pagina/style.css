@@ -1,0 +1,82 @@
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.section {
+    padding: 10px 0;
+}
+
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 50px;
+
+    text-align: center;
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+
+    background-color: #f38181;
+}
+
+.section__text {
+    font-size: 15px;
+    color: #999;
+}
+
+
+
+.services {
+    display: flex;
+}
+
+.services__item {
+    flex: 1 1 0;
+    padding-left: 85px;
+    padding-right: 35px;
+    position: relative;
+}
+
+.services__icon {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
+
+.services__title {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.services__text {
+    font-size: 15px;
+    color: #999;
+}
+
